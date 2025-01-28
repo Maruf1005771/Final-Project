@@ -7,21 +7,22 @@
   
   body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background: url(images/loginbackground.jpg) no-repeat center center/cover; /* Background image adjustment */
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
   }
   
   /* Login Container */
   .login-container {
     width: 100%;
     max-width: 400px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.6); /* Increased transparency */
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px); /* Enhanced blur effect */
   }
   
   /* Form Styling */
