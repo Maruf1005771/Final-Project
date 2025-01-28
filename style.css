@@ -412,10 +412,10 @@
     gap: 10px;
     width: 100%;
   }
-  .basic-marquee .button {
+  .basic-marquee .bton {
     transition: all 0.3s ease;
   }
-  .basic-marquee .button:hover {
+  .basic-marquee .bton:hover {
     transform: scale(1.1);
     cursor: pointer;
   }
@@ -449,7 +449,7 @@
   .basic-marquee svg {
     width: 40px;
   }
-  .basic-marquee button {
+  .basic-marquee .bton {
     background-color: transparent;
     border: none;
     padding: 0;
