@@ -13,6 +13,7 @@
     display: inline-block;
     width: 150px;
     height: 50px;
+    background: rgb(19, 241, 204); 
     border-radius: 10px;
     border: 1px solid #03045e;
     position: relative;
@@ -282,7 +283,7 @@
 }
 
 .visit__container :is(.section__title, .section__subtitle) {
-  color: var(--white);
+  color: white;
 }
 
 .visit__video {
